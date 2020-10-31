@@ -5,11 +5,9 @@ Home: https://github.com/scikit-hep/decaylanguage
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/decaylanguage-feedstock/blob/master/LICENSE.txt)
 
 Summary: A language to describe particle decays, and tools to work with them.
-
-
 
 Current build status
 ====================
