@@ -29,7 +29,7 @@ requirements:
     - particle ~=0.12
     - plumbum >=1.6.9
     - pydot
-    - python
+    - python >=3.6
     - six >=1.11
 
 test:
