@@ -1,5 +1,5 @@
 {% set name = "decaylanguage" %}
-{% set version = "0.9.1" %}
+{% set version = "0.10.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/DecayLanguage-{{ version }}.tar.gz
-  sha256: 0764349f8ff2e816beb1006063b17b9dafaa88bcc52a595451542cbb75c92ba9
+  sha256: 11eb2799e69ce0f9cda3fb7849abf1c31f65f5fd079602f6f8197a3030be0efd
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - lark-parser >=0.8.0,<0.8.6
     - numpy >=1.12
     - pandas >=0.22
-    - particle ==0.13.*
+    - particle ==0.14.*
     - plumbum >=1.6.9
     - pydot
     - python >=3.6
@@ -50,4 +50,5 @@ about:
 extra:
   recipe-maintainers:
     - chrisburr
+    - eduardo-rodrigues
     - eduardo-rodrigues
