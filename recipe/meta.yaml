@@ -1,5 +1,5 @@
 {% set name = "decaylanguage" %}
-{% set version = "0.10.3" %}
+{% set version = "0.11.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/DecayLanguage-{{ version }}.tar.gz
-  sha256: 4aa3f5dd1a3046286a16202c2253011a0437b3602618049de30f1b9b7411480e
+  sha256: 160416ec94703fd9138daebc51bcea0e49e0de45b1af202e78c707288b68f176
 
 build:
   number: 0
@@ -23,12 +23,12 @@ requirements:
     - attrs >=19.2
     # Only required for [py<37] but always include so this can be noarch: python
     - importlib_resources >=1.0
+    - python-graphviz
     - lark-parser >=0.8.0,<0.8.6
     - numpy >=1.12
     - pandas >=0.22
-    - particle ==0.14.*
+    - particle ==0.15.*
     - plumbum >=1.6.9
-    - pydot
     - python >=3.6
     - six >=1.11
 
@@ -50,5 +50,4 @@ about:
 extra:
   recipe-maintainers:
     - chrisburr
-    - eduardo-rodrigues
     - eduardo-rodrigues
