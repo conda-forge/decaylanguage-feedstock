@@ -23,7 +23,7 @@ requirements:
     - attrs >=19.2
     # Only required for [py<37] but always include so this can be noarch: python
     - importlib_resources >=1.0
-    - graphviz
+    - python-graphviz
     - lark-parser >=0.8.0,<0.8.6
     - numpy >=1.12
     - pandas >=0.22
