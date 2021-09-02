@@ -28,7 +28,7 @@ requirements:
     - lark-parser >=0.8.0,<0.8.6
     - numpy >=1.12
     - pandas >=0.22
-    - particle ==0.15.*
+    - particle ==0.16.*
     - plumbum >=1.6.9
     - python >=3.6
     - six >=1.11
