@@ -29,7 +29,7 @@ requirements:
     - pandas >=0.22
     - particle ==0.16.*
     - plumbum >=1.6.9
-    - importlib-resources >=2.0;python_version<"3.9"
+    - importlib-resources >=2.0
     - python >=3.6
 
 test:
