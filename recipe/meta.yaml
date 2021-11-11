@@ -22,16 +22,15 @@ requirements:
     - setuptools-scm
   run:
     - attrs >=19.2
-    # Only required for [py<37] but always include so this can be noarch: python
-    - importlib_resources >=1.0
+    - deprecated
     - python-graphviz
-    - lark-parser >=0.8.0,<0.8.6
+    - lark-parser >=0.11.0
     - numpy >=1.12
     - pandas >=0.22
     - particle ==0.16.*
     - plumbum >=1.6.9
+    - importlib-resources>=2.0;python_version<"3.9"
     - python >=3.6
-    - six >=1.11
 
 test:
   imports:
