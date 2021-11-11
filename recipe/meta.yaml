@@ -1,5 +1,5 @@
 {% set name = "decaylanguage" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/DecayLanguage-{{ version }}.tar.gz
-  sha256: f94379a788eaa74b7d8005c5846eb169b79efe6b103edb98321a8658315bb376
+  sha256: eaa68b796f01475186227a353fa94099da5a757d188f855e7cf0f249bcb82c6d
 
 build:
   number: 0
@@ -22,16 +22,15 @@ requirements:
     - setuptools-scm
   run:
     - attrs >=19.2
-    # Only required for [py<37] but always include so this can be noarch: python
-    - importlib_resources >=1.0
+    - deprecated
     - python-graphviz
-    - lark-parser >=0.8.0,<0.8.6
+    - lark-parser >=0.11.0
     - numpy >=1.12
     - pandas >=0.22
     - particle ==0.16.*
     - plumbum >=1.6.9
+    - importlib_resources >=2.0
     - python >=3.6
-    - six >=1.11
 
 test:
   imports:
