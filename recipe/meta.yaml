@@ -25,10 +25,10 @@ requirements:
     - attrs >=19.2
     - deprecated
     - python-graphviz
-    - lark-parser >=0.11.0
+    - lark >=1.0.0
     - numpy >=1.12
     - pandas >=0.22
-    - particle ==0.20.*
+    - particle ==0.21.*
     - plumbum >=1.6.9
     - importlib_resources >=2.0
     - python >=3.6
