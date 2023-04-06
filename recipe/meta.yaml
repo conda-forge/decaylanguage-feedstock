@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - hatchling
     - hatch-vcs
   run:
@@ -28,10 +28,10 @@ requirements:
     - lark >=1.0.0
     - numpy >=1.12
     - pandas >=0.22
-    - particle ==0.21.*
-    - plumbum >=1.6.9
+    - particle >=0.21.0
+    - plumbum >=1.7.0
     - importlib_resources >=2.0
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
