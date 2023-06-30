@@ -1,5 +1,5 @@
 {% set name = "decaylanguage" %}
-{% set version = "0.15.3" %}
+{% set version = "0.15.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/decaylanguage-{{ version }}.tar.gz
-  sha256: 66c2f154c88083f3e2e95693898380ad232f743851ec32e08848eb418864e159
+  sha256: 2892ade04f98106bab826846bf5e66dcbfb2efef974237b72a0d9dc7d57f290a
 
 build:
   number: 0
