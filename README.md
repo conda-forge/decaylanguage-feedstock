@@ -9,6 +9,10 @@ Package license: BSD-3-Clause
 
 Summary: A language to describe particle decays, and tools to work with them.
 
+Development: https://github.com/scikit-hep/decaylanguage
+
+Documentation: https://decaylanguage.readthedocs.io/
+
 Current build status
 ====================
 
@@ -144,5 +148,6 @@ Feedstock Maintainers
 =====================
 
 * [@chrisburr](https://github.com/chrisburr/)
+* [@conda-forge/scikit-hep](https://github.com/orgs/conda-forge/teams/scikit-hep/)
 * [@eduardo-rodrigues](https://github.com/eduardo-rodrigues/)
 
