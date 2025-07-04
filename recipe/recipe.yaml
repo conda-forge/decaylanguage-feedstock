@@ -31,7 +31,7 @@ requirements:
     - numpy >=1.12
     - pandas >=0.22
     - particle >=0.25.4
-    - hepunits >= 2.3.5
+    - hepunits >=2.3.5
     - plumbum >=1.7.0
     - importlib_resources >=2.0
     - python >=${{ python_min }}
