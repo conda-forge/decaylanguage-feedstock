@@ -14,7 +14,7 @@ source:
   sha256: c6d887f50b04596e2fce40337153f7f2e0a730c9311a01ab090992f5083c889d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -28,12 +28,12 @@ requirements:
     - attrs >=19.2
     - python-graphviz
     - lark >=1.0.0
-    - numpy >=1.12
-    - pandas >=0.22
-    - particle >=0.25.4
-    - hepunits >=2.3.5
+    - numpy >=1.19.3
+    - pandas >=1
+    - particle >=0.26.0
+    - hepunits >=2.4.0
     - plumbum >=1.7.0
-    - importlib_resources >=2.0
+
     - python >=${{ python_min }}
 
 tests:
