@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: decaylanguage
-  version: "0.20.0"
+  version: "0.20.1"
   python_min: '3.9'
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/decaylanguage-${{ version }}.tar.gz
-  sha256: 25b13497b7bc3c6076149920599911af82b0f277f3c82b6ddd84da26e89bccce
+  sha256: c6d887f50b04596e2fce40337153f7f2e0a730c9311a01ab090992f5083c889d
 
 build:
   number: 0
