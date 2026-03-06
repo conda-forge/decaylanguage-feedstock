@@ -3,7 +3,7 @@ schema_version: 1
 context:
   name: decaylanguage
   version: "0.20.3"
-  python_min: '3.9'
+  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
